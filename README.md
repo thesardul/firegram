@@ -4,8 +4,8 @@ This is Firegram created with love in mind. You can use it to learn more about t
 
 ## Setting up Firebase Configurations
 for setting up Firebase configurations, Create a config.js file inside src/firebase and add the following code to the config.js file:
-------------------------------------------------------------------
 
+```
 import * as firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';
@@ -29,7 +29,7 @@ const projectFirestore = firebase.firestore();
 const timeStamp = firebase.firestore.FieldValue.serverTimestamp;
 
 export { projectStorage, projectFirestore, timeStamp };
-------------------------------------------------------------------
+```
 
 ## Available Scripts
 
